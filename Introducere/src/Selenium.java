@@ -7,7 +7,7 @@ public class Selenium {
 	System.setProperty("webdriver.chrome.driver","E:\\ChromeDriver\\chromedriver.exe");
 	ChromeDriver driver = new ChromeDriver();
 	
-	driver.get("https://www.gds.ro/local");
+	driver.get("https://www.github.com");
 	System.out.println(driver.getCurrentUrl());
 	//driver.findElement(By.name("login")).sendKeys("mail@yahoo.com");
 	//driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div/div[2]/div/div")).sendKeys("12345");
